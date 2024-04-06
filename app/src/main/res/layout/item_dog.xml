@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/dogImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src = "@drawable/dog"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/dogName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dogImage"
+        app:layout_constraintTop_toTopOf="@+id/dogImage"
+        tools:text="Golden Retriever" />
+
+    <TextView
+        android:id="@+id/barking"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/dogName"
+        app:layout_constraintStart_toStartOf="@id/dogName"
+        app:layout_constraintTop_toBottomOf="@id/dogName"
+        tools:text="Barking: 5" />
+
+    <TextView
+        android:id="@+id/shedding"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/barking"
+        app:layout_constraintStart_toStartOf="@id/barking"
+        app:layout_constraintTop_toBottomOf="@id/barking"
+        tools:text="Shedding: 5" />
+
+    <TextView
+        android:id="@+id/energy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/shedding"
+        app:layout_constraintStart_toStartOf="@id/shedding"
+        app:layout_constraintTop_toBottomOf="@id/shedding"
+        tools:text="Energy: 3" />
+
+    <TextView
+        android:id="@+id/lifeExpectancy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/energy"
+        app:layout_constraintStart_toStartOf="@id/energy"
+        app:layout_constraintTop_toBottomOf="@id/energy"
+        tools:text="Life Expectancy: 10-12 years" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
