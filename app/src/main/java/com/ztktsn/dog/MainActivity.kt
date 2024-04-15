@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
         dogListRecyclerView.adapter = adapter
         dogListRecyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
+
+
        searchEditText.setOnEditorActionListener { v, actionId, _ ->
             if (actionId == EditorInfo.IME_ACTION_SEARCH) {
                 performSearch(v.text.toString())
