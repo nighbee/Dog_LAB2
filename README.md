@@ -1,6 +1,37 @@
-![screen2](https://github.com/nighbee/Dog_LAB2/assets/95701510/cab69c4e-8429-481f-801b-540e8dfeaf5b)
-![screen1](https://github.com/nighbee/Dog_LAB2/assets/95701510/2b771acc-6e2c-4c13-bbe5-ad561368a624)
+# Dog Android App — Lab 2
 
+Android coursework project for an application centered around dogs. The repository includes the Android source, screenshots, and a recorded demonstration of the final result.
 
-https://github.com/nighbee/Dog_LAB2/assets/95701510/27d88aa0-618c-4320-9cda-8570d208f243
+## Tech stack
 
+- **Kotlin**
+- Android SDK
+- Gradle Kotlin DSL
+- Android Studio
+- Android application components and layouts
+
+## Repository structure
+
+- `app/` — Android application source and resources
+- `screen1.png`, `screen2.png` — application screenshots
+- `final.webm` — recorded demonstration of the final application
+- `build.gradle.kts` — Gradle build configuration
+- `settings.gradle.kts` — project configuration
+
+## Skills demonstrated
+
+- Creating an Android application with Kotlin
+- Structuring an Android Studio project
+- Building and configuring an app with Gradle
+- Designing user-facing mobile screens
+- Testing and presenting an Android coursework project
+
+## Getting started
+
+Open the repository in Android Studio, allow Gradle to sync, select an Android emulator or connected device, and run the `app` module.
+
+The screenshots and `final.webm` provide a visual overview of the implemented result.
+
+## Status
+
+Completed Android course lab demonstrating Kotlin mobile-development fundamentals.
